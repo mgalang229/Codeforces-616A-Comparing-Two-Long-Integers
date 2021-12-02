@@ -9,7 +9,7 @@ int main() {
 	cin >> a >> b;
 	int len_a = a.size();
 	int len_b = b.size();
-	// check if all the digits are a and/or b are equal to 0
+	// check if all the digits of a and/or b are equal to 0
 	bool checker_a = true;
 	for (int i = 0; i < len_a; i++) {
 		if (a[i] != '0') {
